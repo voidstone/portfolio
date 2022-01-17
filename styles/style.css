@@ -17,6 +17,49 @@ html {
     background-color: black;
 }
 
+.contacts {
+    position: relative;
+    height: 700px;
+    background-image: url("../assets/contacts/bg.png");
+    background-position: center center;
+}
+
+.contacts-form {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.contacts-form__header {
+    margin-bottom: 40px;
+}
+
+.contacts-form__email {
+    box-sizing: border-box;
+    height: 50px;
+    margin-bottom: 20px;
+    border: 2px solid;
+    padding-left: 18px;
+}
+
+.contacts-form__tel {
+    box-sizing: border-box;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 18px;
+}
+
+.contacts-form__message {
+    box-sizing: border-box;
+    height: 100px;
+    margin-bottom: 30px;
+    padding: 10px 0 0 18px;
+}
+
+
 .footer {
     display: flex;
     flex-direction: row;
@@ -30,7 +73,8 @@ html {
 
 .footer-links-list {
     display: flex;
-    flex-direction: row;}
+    flex-direction: row;
+}
 
 
 .footer-links-list__item {
