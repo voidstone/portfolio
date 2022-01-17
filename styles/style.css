@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.page {
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: 150px;
+    padding: 50px 20px;
+    color: white;
+}
+
+.footer-links-list {
+    display: flex;
+    flex-direction: row;}
+
+
+.footer-links-list__item {
+    list-style-type: none;
+}
